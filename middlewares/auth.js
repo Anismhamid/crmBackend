@@ -8,7 +8,7 @@ const auth = (req, res, next) => {
 		req.user = token;
 		next();
 	} catch (error) {
-		res.status(400).send("Invalid token.");
+		res.status(401).send("Invalid token");
 	}
 };
 

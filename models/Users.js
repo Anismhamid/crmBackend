@@ -28,17 +28,17 @@ const UserSchema = new mongoose.Schema(
 					zipCode: {type: String, required: true},
 				},
 			},
-		},
-		role: {
-			type: String,
-			enum: ["Admin", "customer", "customer support", "seller"],
-			required: true,
+			role: {
+				type: String,
+				enum: ["Admin", "customer", "customer support", "seller"],
+				required: true,
+			},
+			isActive: {
+				type: Boolean,
+				default: true,
+			},
 		},
 		// permissions: {enum: ["Admin","customer","customer"]}, // Manage users permissions
-		isActive: {
-			type: Boolean,
-			default: true,
-		},
 		lastLogin: {type: Date},
 	},
 	{timestamps: true},

@@ -37,7 +37,7 @@ const productSchema = new mongoose.Schema(
 	},
 );
 
-// added grup to make populate the reviews values
+// added group to make populate the reviews values
 productSchema.virtual("reviews", {
 	ref: "Review",
 	localField: "_id",

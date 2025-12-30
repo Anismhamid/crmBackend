@@ -16,7 +16,7 @@ router.post("/", async (req, res) => {
 		// Check shcema error
 		if (error) return res.status(400).send(error.details[0].message);
 
-		// Check if the product is exists on the database
+		// Check if the product exists in the database
 		const product = await Products.findOne({product_name: req.body.product_name});
 		if (product) return res.status(400).send("This product already exists");
 
@@ -49,41 +49,41 @@ router.get("/", async (req, res) => {
 	}
 });
 
-// Fetch products by category
-router.get("/category/:category", async (req, res) => {
-	const {category} = req.params;
-	try {
-		// check if exists
-		const products = await Products.find({category: category});
-		if (!products.length) return res.status(404).send("No products has been found");
-
-		res.status(200).send(products);
-	} catch (error) {
-		res.status(500).send("internal server error");
-	}
-});
-
 // Fetch product by id
 router.get("/:id", async (req, res) => {
 	const {id} = req.params;
 	try {
-		// Try to  find the product
 		const product = await Products.findById(id).populate({
 			path: "reviews",
-			populate: {path: "user", select: "profile.firstName profile.lastName email"},
+			populate: {
+				path: "user",
+				select: "profile.firstName profile.lastName avatar.url avatar.alt email",
+			},
 		});
 
-		// check if the product is exists
-		if (!product) return res.status(404).send("No products has been found");
+		if (!product) return res.status(404).send("No products found");
 
-		// return the product
 		res.status(200).send(product);
 	} catch (error) {
 		res.status(500).send(error.message);
 	}
 });
 
-//_____ Updates _____
+router.get("/category/:category", async (req, res) => {
+	const category = req.params.category.toLowerCase();
+
+	try {
+		const products = await Products.find({
+			category: {$regex: new RegExp(`^${category}$`, "i")}, // case-insensitive
+		});
+
+		if (!products.length) return res.status(404).send("No products found");
+		res.status(200).send(products);
+	} catch (error) {
+		console.log(error);
+		res.status(500).send("internal server error");
+	}
+});
 
 // delete product by id
 router.delete("/:id", auth, verifyRole(["Admin"]), async (req, res) => {
@@ -100,7 +100,9 @@ router.delete("/:id", auth, verifyRole(["Admin"]), async (req, res) => {
 	}
 });
 
-// update produc by id
+//_____ Updates _____
+
+// update product by id
 router.put("/:id", auth, verifyRole(["Admin"]), async (req, res) => {
 	try {
 		const {id} = req.params;
@@ -116,7 +118,7 @@ router.put("/:id", auth, verifyRole(["Admin"]), async (req, res) => {
 });
 
 // update spicific produc name by id
-router.patch("/:id", async (req, res) => {
+router.patch("/:id", auth, verifyRole(["Admin"]), async (req, res) => {
 	try {
 		const {id} = req.params;
 
@@ -124,7 +126,7 @@ router.patch("/:id", async (req, res) => {
 		if (error) return res.status(400).send(error.details[0].message);
 
 		const product = await Products.findOneAndUpdate(
-			{_id: id},
+			id,
 			{product_name: req.body.product_name},
 			{new: true},
 		);
@@ -134,5 +136,30 @@ router.patch("/:id", async (req, res) => {
 		res.status(500).send(error.message);
 	}
 });
+
+router.get("/search", async (req, res) => {
+	try {
+		const {q, category} = req.query;
+		const filter = {};
+
+		if (q) {
+			filter.$or = [
+				{product_name: {$regex: q, $option: "i"}},
+				{description: {$regex: q, $option: "i"}},
+			];
+		}
+
+		if (category) {
+			filter.category = category;
+		}
+
+		const search = await Products.find({});
+	} catch (error) {
+		console.error(error);
+		res.status(500).send("internal server error");
+	}
+});
+
+// GET /api/products/search?q=cake&category=Cakes
 
 module.exports = router;

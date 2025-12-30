@@ -18,6 +18,7 @@ const PORT = process.env.PORT || 8000;
 
 // express rate limit for limit requests
 const {rateLimit} = require("express-rate-limit");
+const {logger, logToFile} = require("./middlewares/logToFile");
 const limiter = rateLimit({
 	windowMs: 15 * 60 * 1000, // 15 minutes
 	limit: 100, // Limit each IP to 100 requests per `window` (here, per 15 minutes).
@@ -30,9 +31,12 @@ const limiter = rateLimit({
 app.use(express.json());
 app.use(limiter);
 app.use(cors());
+app.use(logger);
+logToFile();
 app.use(morgan("dev"));
 
 app.use((req, res, next) => {
+	console.log(`${req.method} ${req.url}`);
 	next();
 });
 
