@@ -1,0 +1,133 @@
+✨31.12.2025, 9:26:02✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 9:26:03✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 9:27:55✨ POST /register - Status Code: 400 - Error: "_id" is not allowed
+✨31.12.2025, 9:27:56✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 9:34:07✨ POST /register - Status Code: 400 - Error: "_id" is not allowed
+✨31.12.2025, 9:35:38✨ POST /register - Status Code: 500 - Error: Users validation failed: profile.role: `customer_support` is not a valid enum value for path `profile.role`.
+✨31.12.2025, 9:36:15✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 9:38:14✨ GET / - Status Code: 403 - Error: Access denied. Insufficient permissions.
+✨31.12.2025, 9:38:14✨ GET / - Status Code: 403 - Error: Access denied. Insufficient permissions.
+✨31.12.2025, 9:59:13✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 10:01:10✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 10:01:13✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 10:01:16✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 10:01:18✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 10:04:17✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 10:04:49✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 11:40:34✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 11:40:36✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 11:45:49✨ GET /[object%20Object] - Status Code: 500 - Error: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Products"
+✨31.12.2025, 11:46:23✨ GET /[object%20Object] - Status Code: 500 - Error: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Products"
+✨31.12.2025, 11:47:11✨ GET /[object%20Object] - Status Code: 500 - Error: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Products"
+✨31.12.2025, 11:47:17✨ GET /rea[object%20Object] - Status Code: 500 - Error: Cast to ObjectId failed for value "rea[object Object]" (type string) at path "_id" for model "Products"
+✨31.12.2025, 11:50:28✨ GET /search?minPrice=0&maxPrice=1000&sortBy=newest&page=1&limit=12 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 11:51:02✨ GET /search?minPrice=66&maxPrice=1000&sortBy=newest&page=1&limit=12 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 11:51:03✨ GET /search?minPrice=66&maxPrice=700&sortBy=newest&page=1&limit=12 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 11:51:06✨ GET /search?minPrice=0&maxPrice=700&sortBy=newest&page=1&limit=12 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 11:51:08✨ GET /search?category=Cakes&minPrice=0&maxPrice=700&sortBy=newest&page=1&limit=12 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 11:51:12✨ GET /search?category=Bake+House&minPrice=0&maxPrice=700&sortBy=newest&page=1&limit=12 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 11:51:29✨ GET /search?category=Bake+House&onSale=true&minPrice=0&maxPrice=700&sortBy=newest&page=1&limit=12 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 11:51:33✨ GET /search?category=Bake+House&minPrice=0&maxPrice=700&sortBy=newest&page=1&limit=12 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 11:52:25✨ GET /search?category=Bake+House&minPrice=0&maxPrice=700&sortBy=newest&page=1&limit=12 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 11:52:51✨ GET /search?category=Bake+House&minPrice=0&maxPrice=700&sortBy=newest&page=1&limit=12 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 11:52:55✨ GET /search?category=Bake+House&minPrice=0&maxPrice=700&manufacturer=Sweet+Moments+Bakery&sortBy=newest&page=1&limit=12 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 11:54:34✨ GET /search?category=Bake+House&priceRange%5B%5D=0&priceRange%5B%5D=700&onSale=false&minDiscount=0&manufacturer=Sweet+Moments+Bakery&inStock=false&sortBy=newest - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 11:56:14✨ GET /search?category=Bake+House&priceRange%5B%5D=0&priceRange%5B%5D=1000&onSale=false&minDiscount=0&manufacturer=Sweet+Moments+Bakery&inStock=false&sortBy=newest&minPrice=0&maxPrice=1000 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 11:56:18✨ GET /search?category=&priceRange%5B%5D=0&priceRange%5B%5D=1000&onSale=false&minDiscount=0&inStock=false&sortBy=newest&minPrice=0&maxPrice=1000 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 11:56:42✨ GET /search?category=&priceRange%5B%5D=0&priceRange%5B%5D=1000&onSale=false&minDiscount=0&inStock=false&sortBy=newest&minPrice=0&maxPrice=1000 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:08:13✨ GET /search?category=&onSale=false&inStock=false&minDiscount=0&minPrice=0&maxPrice=1&manufacturer=&sortBy=newest&limit=12 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:08:22✨ GET / - Status Code: 401 - Error: Access denied, No token provided
+✨31.12.2025, 12:08:22✨ GET / - Status Code: 401 - Error: Access denied, No token provided
+✨31.12.2025, 12:08:26✨ GET /search?category=&onSale=false&inStock=false&minDiscount=0&minPrice=0&maxPrice=1&manufacturer=&sortBy=newest&limit=12 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:08:55✨ GET /search?category=&onSale=false&inStock=false&minDiscount=0&minPrice=0&maxPrice=1&manufacturer=&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:09:00✨ GET /search?category=&onSale=false&inStock=false&minDiscount=0&minPrice=0&maxPrice=1&manufacturer=&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:09:04✨ GET /search?category=&onSale=false&inStock=false&minDiscount=0&minPrice=0&maxPrice=1&manufacturer=&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:09:51✨ GET /search?category=&onSale=false&inStock=false&minDiscount=0&minPrice=0&maxPrice=1&manufacturer=&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:10:30✨ GET /search?category=&onSale=false&minDiscount=0&manufacturer=&inStock=false&minPrice=0&maxPrice=1&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:10:47✨ GET /search?category=&onSale=false&inStock=false&minDiscount=0&minPrice=0&maxPrice=1&manufacturer=&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:10:50✨ GET /search?category=&onSale=false&inStock=false&minDiscount=0&minPrice=0&maxPrice=1&manufacturer=&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:10:55✨ GET /search?category=&onSale=false&inStock=false&minDiscount=0&minPrice=0&maxPrice=1&manufacturer=&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:11:16✨ GET /search?category=&onSale=false&inStock=false&minDiscount=0&minPrice=0&maxPrice=1&manufacturer=&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:11:55✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 12:12:24✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 12:12:35✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 12:12:39✨ GET / - Status Code: 401 - Error: Access denied, No token provided
+✨31.12.2025, 12:12:39✨ GET / - Status Code: 401 - Error: Access denied, No token provided
+✨31.12.2025, 12:12:41✨ GET /search?category=&onSale=false&inStock=false&minDiscount=0&minPrice=0&maxPrice=1&manufacturer=&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:13:45✨ GET /search?category=&onSale=false&inStock=false&minDiscount=0&minPrice=0&maxPrice=1&manufacturer=&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:13:52✨ GET /search?category=&onSale=false&inStock=false&minDiscount=0&minPrice=0&maxPrice=1&manufacturer=&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:14:10✨ GET /search?category=&onSale=false&inStock=false&minDiscount=0&minPrice=0&maxPrice=1&manufacturer=&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:14:12✨ GET /search?category=&onSale=false&inStock=false&minDiscount=0&minPrice=0&maxPrice=1&manufacturer=&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:14:44✨ GET /search?category=&onSale=false&inStock=false&minDiscount=0&minPrice=0&maxPrice=1&manufacturer=&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:17:06✨ GET /search?category=&onSale=false&inStock=false&minDiscount=0&minPrice=0&maxPrice=1&manufacturer=&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:17:08✨ GET /search?category=&onSale=false&inStock=false&minDiscount=0&minPrice=0&maxPrice=1&manufacturer=&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:17:14✨ GET /search?category=&onSale=false&inStock=false&minDiscount=0&minPrice=0&maxPrice=1&manufacturer=&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:18:55✨ GET /search?category=&onSale=false&inStock=false&minDiscount=0&minPrice=0&maxPrice=1&manufacturer=&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:18:57✨ GET /search?category=&onSale=false&inStock=false&minDiscount=0&minPrice=0&maxPrice=1&manufacturer=&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:19:56✨ GET /search?category=&onSale=false&inStock=false&minDiscount=0&minPrice=0&maxPrice=1&manufacturer=&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:20:23✨ GET /search?category=&onSale=false&minDiscount=0&manufacturer=&inStock=false&minPrice=0&maxPrice=1&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:20:38✨ GET /search?category=&onSale=false&minDiscount=0&manufacturer=&inStock=false&minPrice=0&maxPrice=1&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:21:17✨ GET /search?category=&onSale=false&minDiscount=0&manufacturer=&inStock=false&minPrice=0&maxPrice=1&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:22:54✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 12:23:05✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 12:23:09✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 12:23:43✨ GET /search?category=&onSale=false&minDiscount=0&manufacturer=&inStock=false&minPrice=0&maxPrice=1&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:24:11✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 12:24:17✨ GET /search?category=&onSale=false&minDiscount=0&manufacturer=&inStock=false&minPrice=0&maxPrice=1&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:25:12✨ GET /search?category=&onSale=true&minDiscount=0&manufacturer=&inStock=false&minPrice=0&maxPrice=1&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:25:14✨ GET /search?category=&onSale=false&minDiscount=0&manufacturer=&inStock=false&minPrice=0&maxPrice=1&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:25:16✨ GET /search?category=Bake+House&onSale=false&minDiscount=0&manufacturer=&inStock=false&minPrice=0&maxPrice=1&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:25:19✨ GET /search?category=Bake+House&onSale=false&minDiscount=0&manufacturer=Golden+Cake&inStock=false&minPrice=0&maxPrice=1&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:25:21✨ GET /search?category=Bake+House&onSale=false&minDiscount=1&manufacturer=Golden+Cake&inStock=false&minPrice=0&maxPrice=1&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:25:23✨ GET /search?category=Bake+House&onSale=false&minDiscount=1&manufacturer=Golden+Cake&inStock=false&minPrice=0&maxPrice=1&sortBy=priceAsc&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:26:20✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 12:29:52✨ GET /search?category=&onSale=false&minDiscount=0&manufacturer=&inStock=false&minPrice=0&maxPrice=1&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:32:27✨ GET /search?category=&onSale=false&minDiscount=0&manufacturer=&inStock=false&minPrice=0&maxPrice=1&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:35:09✨ GET /search?category=&onSale=false&minDiscount=0&manufacturer=&inStock=false&minPrice=0&maxPrice=1&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:35:38✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 12:35:47✨ GET /search?category=&onSale=false&minDiscount=0&manufacturer=&inStock=false&minPrice=0&maxPrice=1&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:37:41✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 12:37:51✨ GET /search?category=&onSale=false&minDiscount=0&manufacturer=&inStock=false&minPrice=0&maxPrice=120&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:37:54✨ GET /search?category=&onSale=false&minDiscount=0&manufacturer=&inStock=false&minPrice=0&maxPrice=430&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:37:57✨ GET /search?category=&onSale=false&minDiscount=0&manufacturer=&inStock=false&minPrice=120&maxPrice=430&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:38:32✨ GET /search?category=&onSale=false&minDiscount=0&manufacturer=&inStock=false&minPrice=0&maxPrice=430&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:38:34✨ GET /search?category=&onSale=false&minDiscount=0&manufacturer=&inStock=false&minPrice=0&maxPrice=1000&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:38:40✨ GET /search?category=&onSale=false&minDiscount=0&manufacturer=&inStock=false&minPrice=0&maxPrice=1000&sortBy=newest&limit=12&isSale=true&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:38:43✨ GET /search?category=&onSale=false&minDiscount=0&manufacturer=&inStock=true&minPrice=0&maxPrice=1000&sortBy=newest&limit=12&isSale=true&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:39:22✨ GET /search?category=&onSale=false&minDiscount=10&manufacturer=&inStock=true&minPrice=0&maxPrice=1000&sortBy=newest&limit=12&isSale=true&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:39:26✨ GET /search?category=&onSale=false&minDiscount=1&manufacturer=&inStock=true&minPrice=0&maxPrice=1000&sortBy=newest&limit=12&isSale=true&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:39:29✨ GET /search?category=&onSale=false&minDiscount=0&manufacturer=&inStock=true&minPrice=0&maxPrice=1000&sortBy=newest&limit=12&isSale=true&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:39:32✨ GET /search?category=Bake+House&onSale=false&minDiscount=0&manufacturer=&inStock=true&minPrice=0&maxPrice=1000&sortBy=newest&limit=12&isSale=true&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:39:38✨ GET /search?category=Decorations&onSale=false&minDiscount=0&manufacturer=&inStock=true&minPrice=0&maxPrice=1000&sortBy=newest&limit=12&isSale=true&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:39:43✨ GET /search?category=&onSale=false&minDiscount=0&manufacturer=&inStock=true&minPrice=0&maxPrice=1000&sortBy=newest&limit=12&isSale=true&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:39:49✨ GET /search?category=&onSale=false&minDiscount=0&manufacturer=&inStock=true&minPrice=0&maxPrice=1000&sortBy=priceAsc&limit=12&isSale=true&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:41:22✨ GET /search?category=&onSale=false&minDiscount=0&manufacturer=&inStock=false&minPrice=0&maxPrice=1&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: Cast to ObjectId failed for value "search" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:42:54✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 12:42:56✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 12:43:04✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 12:43:07✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 12:43:25✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 12:43:36✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 12:44:55✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 12:50:34✨ GET /search?category=Platters&isSale=false&minDiscount=0&manufacturer=&inStock=false&minPrice=0&maxPrice=1000&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: {"message":"Failed to fetch products","error":"Cast to Number failed for value \"{}\" (type Object) at path \"price\" for model \"Products\""}
+✨31.12.2025, 12:50:37✨ GET /search?category=Fruits&isSale=false&minDiscount=0&manufacturer=&inStock=false&minPrice=0&maxPrice=1000&sortBy=newest&limit=12&skip=0 - Status Code: 500 - Error: {"message":"Failed to fetch products","error":"Cast to Number failed for value \"{}\" (type Object) at path \"price\" for model \"Products\""}
+✨31.12.2025, 12:58:14✨ GET /Cakes - Status Code: 500 - Error: Cast to ObjectId failed for value "Cakes" (type string) at path "_id" for model "Products"
+✨31.12.2025, 12:58:14✨ GET /Cakes - Status Code: 500 - Error: Cast to ObjectId failed for value "Cakes" (type string) at path "_id" for model "Products"
+✨31.12.2025, 13:01:36✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 13:02:12✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 13:02:21✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 13:02:22✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 13:02:29✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 13:05:33✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 13:12:28✨ GET /search?minPrice=0&maxPrice=1000&limit=5 - Status Code: 500 - Error: {"message":"Failed to fetch products","error":"Cast to Number failed for value \"{}\" (type Object) at path \"price\" for model \"Products\""}
+✨31.12.2025, 13:18:41✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 13:18:44✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 13:19:16✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 13:19:22✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 13:19:41✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 13:19:45✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 13:20:01✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 13:20:04✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 13:21:26✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 13:21:41✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨31.12.2025, 13:27:07✨ undefined undefined - Status Code: No status code provided - Error: No error message provided

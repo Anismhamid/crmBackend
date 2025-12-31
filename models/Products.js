@@ -47,6 +47,7 @@ productSchema.virtual("reviews", {
 productSchema.set("toObject", {virtuals: true});
 productSchema.set("toJSON", {virtuals: true});
 
+
 const Products = mongoose.model("Products", productSchema);
 
 module.exports = Products;

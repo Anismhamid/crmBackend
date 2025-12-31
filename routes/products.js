@@ -8,7 +8,7 @@ const Review = require("../models/Review");
 
 //_____ Create and Get _____
 // Create a new product
-router.post("/", async (req, res) => {
+router.post("/", auth, verifyRole(["Admin"]), async (req, res) => {
 	try {
 		// validation schema
 		const {error} = productSchema.validate(req.body);
@@ -32,7 +32,76 @@ router.post("/", async (req, res) => {
 		res.status(500).send("internal server error");
 	}
 });
+router.get("/search", async (req, res) => {
+	try {
+		const {
+			category,
+			isSale,
+			inStock,
+			manufacturer,
+			minDiscount,
+			minPrice = 1,
+			maxPrice = 1000,
+			sortBy = "newest",
+			limit = 1000,
+			skip = 0,
+		} = req.query;
 
+		const filter = {};
+
+		// Text filters
+		if (category && category !== "") filter.category = category;
+		if (manufacturer && manufacturer.trim() !== "") {
+			filter.manufacturer = manufacturer.trim();
+		}
+
+		// Boolean filters
+		if (isSale === "true") filter["sales.isSale"] = true;
+		if (inStock === "true") filter.quantity_in_stock = {$gt: 0};
+
+		// Number filters
+		if (minDiscount && minDiscount !== "0") {
+			filter.discount = {$gte: Number(minDiscount)};
+		}
+
+		// Price filter
+		if (minPrice !== undefined || maxPrice !== undefined) {
+			filter.price = {};
+			if (minPrice !== undefined && minPrice !== "0") {
+				filter.price.$gte = Number(minPrice);
+			}
+			if (maxPrice !== undefined && maxPrice !== "1000") {
+				filter.price.$lte = Number(maxPrice);
+			}
+		}
+
+
+		// Sorting map
+		const sortMap = {
+			newest: {createdAt: -1},
+			priceAsc: {price: 1},
+			priceDesc: {price: -1},
+		};
+
+		const limitNumber = Number(limit);
+		const skipNumber = Number(skip);
+
+		const products = await Products.find(filter)
+			.sort(sortMap[sortBy] || sortMap.newest)
+			.skip(skipNumber)
+			.limit(limitNumber);
+
+		console.log(`Found ${products.length} products`); // Debug log
+
+		res.json(products);
+	} catch (err) {
+		console.error("Search Products Error:", err);
+		res.status(500).json({
+			message: "Failed to fetch products",
+			error: err.message,
+		});
+	}
+});
 // Fetch all products
 router.get("/", async (req, res) => {
 	try {
@@ -40,7 +109,7 @@ router.get("/", async (req, res) => {
 		const products = await Products.find();
 
 		// check if the proucts is exists
-		if (!products) return res.status(404).send("No products has been found.");
+		if (!products.length) return res.status(404).send("No products has been found.");
 
 		// Return the products
 		res.status(200).send(products);
@@ -137,29 +206,27 @@ router.patch("/:id", auth, verifyRole(["Admin"]), async (req, res) => {
 	}
 });
 
-router.get("/search", async (req, res) => {
-	try {
-		const {q, category} = req.query;
-		const filter = {};
+// router.get("/search", async (req, res) => {
+// 	try {
+// 		const {q, category} = req.query;
+// 		const filter = {};
 
-		if (q) {
-			filter.$or = [
-				{product_name: {$regex: q, $option: "i"}},
-				{description: {$regex: q, $option: "i"}},
-			];
-		}
+// 		if (q) {
+// 			filter.$or = [
+// 				{product_name: {$regex: q, $option: "i"}},
+// 				{description: {$regex: q, $option: "i"}},
+// 			];
+// 		}
 
-		if (category) {
-			filter.category = category;
-		}
+// 		if (category) {
+// 			filter.category = category;
+// 		}
 
-		const search = await Products.find({});
-	} catch (error) {
-		console.error(error);
-		res.status(500).send("internal server error");
-	}
-});
-
-// GET /api/products/search?q=cake&category=Cakes
+// 		const search = await Products.find({});
+// 	} catch (error) {
+// 		console.error(error);
+// 		res.status(500).send("internal server error");
+// 	}
+// });
 
 module.exports = router;
