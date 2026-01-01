@@ -1,0 +1,165 @@
+✨1.1.2026, 15:47:21✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 15:47:25✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 15:49:37✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 15:54:01✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 15:55:03✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 15:55:08✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:13:39✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:13:39✨ GET /current - Status Code: 500 - Error: {"message":"Server error","error":"Cannot read properties of undefined (reading 'user')"}
+✨1.1.2026, 16:13:39✨ GET /current - Status Code: 500 - Error: {"message":"Server error","error":"Cannot read properties of undefined (reading 'user')"}
+✨1.1.2026, 16:13:55✨ GET /current - Status Code: 500 - Error: {"message":"Server error","error":"Cannot read properties of undefined (reading 'user')"}
+✨1.1.2026, 16:13:55✨ GET /current - Status Code: 500 - Error: {"message":"Server error","error":"Cannot read properties of undefined (reading 'user')"}
+✨1.1.2026, 16:17:13✨ GET /current - Status Code: 500 - Error: {"message":"Server error","error":"Cannot read properties of undefined (reading 'user')"}
+✨1.1.2026, 16:17:13✨ GET /current - Status Code: 500 - Error: {"message":"Server error","error":"Cannot read properties of undefined (reading 'user')"}
+✨1.1.2026, 16:17:22✨ GET /current - Status Code: 500 - Error: {"message":"Server error","error":"Cannot read properties of undefined (reading 'user')"}
+✨1.1.2026, 16:17:22✨ GET /current - Status Code: 500 - Error: {"message":"Server error","error":"Cannot read properties of undefined (reading 'user')"}
+✨1.1.2026, 16:18:07✨ GET /current - Status Code: 500 - Error: {"message":"Server error","error":"Cannot read properties of undefined (reading 'user')"}
+✨1.1.2026, 16:18:07✨ GET /current - Status Code: 500 - Error: {"message":"Server error","error":"Cannot read properties of undefined (reading 'user')"}
+✨1.1.2026, 16:18:26✨ GET /current - Status Code: 500 - Error: {"message":"Server error","error":"Cannot read properties of undefined (reading 'user')"}
+✨1.1.2026, 16:18:26✨ GET /current - Status Code: 500 - Error: {"message":"Server error","error":"Cannot read properties of undefined (reading 'user')"}
+✨1.1.2026, 16:18:33✨ GET /current - Status Code: 500 - Error: {"message":"Server error","error":"Cannot read properties of undefined (reading 'user')"}
+✨1.1.2026, 16:18:33✨ GET /current - Status Code: 500 - Error: {"message":"Server error","error":"Cannot read properties of undefined (reading 'user')"}
+✨1.1.2026, 16:18:36✨ GET /current - Status Code: 500 - Error: {"message":"Server error","error":"Cannot read properties of undefined (reading 'user')"}
+✨1.1.2026, 16:18:36✨ GET /current - Status Code: 500 - Error: {"message":"Server error","error":"Cannot read properties of undefined (reading 'user')"}
+✨1.1.2026, 16:19:02✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:19:06✨ GET /current - Status Code: 500 - Error: {"message":"Server error","error":"Cannot read properties of undefined (reading 'user')"}
+✨1.1.2026, 16:19:06✨ GET /current - Status Code: 500 - Error: {"message":"Server error","error":"Cannot read properties of undefined (reading 'user')"}
+✨1.1.2026, 16:20:58✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:21:01✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:21:07✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:21:29✨ GET /current - Status Code: 404 - Error: {"message":"User not found"}
+✨1.1.2026, 16:21:30✨ GET /current - Status Code: 404 - Error: {"message":"User not found"}
+✨1.1.2026, 16:21:39✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:21:41✨ GET /current - Status Code: 404 - Error: {"message":"User not found"}
+✨1.1.2026, 16:21:41✨ GET /current - Status Code: 404 - Error: {"message":"User not found"}
+✨1.1.2026, 16:22:31✨ GET /current - Status Code: 404 - Error: {"message":"User not found"}
+✨1.1.2026, 16:22:31✨ GET /current - Status Code: 404 - Error: {"message":"User not found"}
+✨1.1.2026, 16:24:56✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:25:09✨ GET /current - Status Code: 404 - Error: {"message":"User not found"}
+✨1.1.2026, 16:25:09✨ GET /current - Status Code: 404 - Error: {"message":"User not found"}
+✨1.1.2026, 16:25:09✨ GET /stats/revenue?months=7 - Status Code: 500 - Error: {"success":false,"message":"Orders is not defined"}
+✨1.1.2026, 16:25:09✨ GET /stats/revenue?months=7 - Status Code: 500 - Error: {"success":false,"message":"Orders is not defined"}
+✨1.1.2026, 16:25:12✨ GET /current - Status Code: 404 - Error: {"message":"User not found"}
+✨1.1.2026, 16:25:12✨ GET /current - Status Code: 404 - Error: {"message":"User not found"}
+✨1.1.2026, 16:25:12✨ GET /stats/revenue?months=7 - Status Code: 500 - Error: {"success":false,"message":"Orders is not defined"}
+✨1.1.2026, 16:25:13✨ GET /stats/revenue?months=7 - Status Code: 500 - Error: {"success":false,"message":"Orders is not defined"}
+✨1.1.2026, 16:25:15✨ GET /current - Status Code: 404 - Error: {"message":"User not found"}
+✨1.1.2026, 16:25:15✨ GET /current - Status Code: 404 - Error: {"message":"User not found"}
+✨1.1.2026, 16:25:16✨ GET /stats/revenue?months=7 - Status Code: 500 - Error: {"success":false,"message":"Orders is not defined"}
+✨1.1.2026, 16:25:16✨ GET /stats/revenue?months=7 - Status Code: 500 - Error: {"success":false,"message":"Orders is not defined"}
+✨1.1.2026, 16:25:17✨ GET /current - Status Code: 404 - Error: {"message":"User not found"}
+✨1.1.2026, 16:25:17✨ GET /current - Status Code: 404 - Error: {"message":"User not found"}
+✨1.1.2026, 16:25:17✨ GET /stats/revenue?months=7 - Status Code: 500 - Error: {"success":false,"message":"Orders is not defined"}
+✨1.1.2026, 16:25:17✨ GET /stats/revenue?months=7 - Status Code: 500 - Error: {"success":false,"message":"Orders is not defined"}
+✨1.1.2026, 16:25:22✨ GET /current - Status Code: 404 - Error: {"message":"User not found"}
+✨1.1.2026, 16:25:22✨ GET /current - Status Code: 404 - Error: {"message":"User not found"}
+✨1.1.2026, 16:25:22✨ GET /stats/revenue?months=7 - Status Code: 500 - Error: {"success":false,"message":"Orders is not defined"}
+✨1.1.2026, 16:25:22✨ GET /stats/revenue?months=7 - Status Code: 500 - Error: {"success":false,"message":"Orders is not defined"}
+✨1.1.2026, 16:25:24✨ GET /current - Status Code: 404 - Error: {"message":"User not found"}
+✨1.1.2026, 16:25:24✨ GET /current - Status Code: 404 - Error: {"message":"User not found"}
+✨1.1.2026, 16:25:24✨ GET /stats/revenue?months=7 - Status Code: 500 - Error: {"success":false,"message":"Orders is not defined"}
+✨1.1.2026, 16:25:24✨ GET /stats/revenue?months=7 - Status Code: 500 - Error: {"success":false,"message":"Orders is not defined"}
+✨1.1.2026, 16:25:37✨ GET /current - Status Code: 404 - Error: {"message":"User not found"}
+✨1.1.2026, 16:25:37✨ GET /current - Status Code: 404 - Error: {"message":"User not found"}
+✨1.1.2026, 16:25:37✨ GET /stats/revenue?months=7 - Status Code: 500 - Error: {"success":false,"message":"Orders is not defined"}
+✨1.1.2026, 16:25:37✨ GET /stats/revenue?months=7 - Status Code: 500 - Error: {"success":false,"message":"Orders is not defined"}
+✨1.1.2026, 16:26:03✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:26:06✨ GET /current - Status Code: 404 - Error: {"message":"User not found"}
+✨1.1.2026, 16:26:06✨ GET /current - Status Code: 404 - Error: {"message":"User not found"}
+✨1.1.2026, 16:26:06✨ GET /revenue?months=7 - Status Code: 500 - Error: {"success":false,"message":"Orders is not defined"}
+✨1.1.2026, 16:26:06✨ GET /revenue?months=7 - Status Code: 500 - Error: {"success":false,"message":"Orders is not defined"}
+✨1.1.2026, 16:26:41✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:26:48✨ GET /current - Status Code: 404 - Error: {"message":"User not found"}
+✨1.1.2026, 16:26:48✨ GET /current - Status Code: 404 - Error: {"message":"User not found"}
+✨1.1.2026, 16:26:48✨ GET /revenue?months=7 - Status Code: 500 - Error: {"success":false,"message":"Orders is not defined"}
+✨1.1.2026, 16:26:49✨ GET /revenue?months=7 - Status Code: 500 - Error: {"success":false,"message":"Orders is not defined"}
+✨1.1.2026, 16:28:45✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:28:58✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:29:27✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:29:29✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:29:58✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:30:11✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:30:25✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:30:39✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:30:41✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:30:48✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:30:56✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:31:27✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:31:37✨ GET /current - Status Code: 404 - Error: {"message":"User not found"}
+✨1.1.2026, 16:31:37✨ GET /current - Status Code: 404 - Error: {"message":"User not found"}
+✨1.1.2026, 16:32:38✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:32:40✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:32:51✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:34:25✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:34:33✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:34:35✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:34:39✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:34:42✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:34:44✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:34:49✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:55:06✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 16:55:07✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 17:00:37✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 17:08:29✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 17:08:36✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 17:09:04✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 17:53:43✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 17:53:45✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 17:53:50✨ GET /new-customers?months=7 - Status Code: 401 - Error: Access denied, No token provided
+✨1.1.2026, 17:53:50✨ GET /new-customers?months=7 - Status Code: 401 - Error: Access denied, No token provided
+✨1.1.2026, 17:53:50✨ GET /stats - Status Code: 401 - Error: Access denied, No token provided
+✨1.1.2026, 17:53:50✨ GET /stats - Status Code: 401 - Error: Access denied, No token provided
+✨1.1.2026, 17:53:52✨ GET /new-customers?months=7 - Status Code: 401 - Error: Access denied, No token provided
+✨1.1.2026, 17:53:52✨ GET /stats - Status Code: 401 - Error: Access denied, No token provided
+✨1.1.2026, 17:53:54✨ GET /new-customers?months=7 - Status Code: 401 - Error: Access denied, No token provided
+✨1.1.2026, 17:53:54✨ GET /stats - Status Code: 401 - Error: Access denied, No token provided
+✨1.1.2026, 17:53:54✨ GET /new-customers?months=7 - Status Code: 401 - Error: Access denied, No token provided
+✨1.1.2026, 17:53:54✨ GET /stats - Status Code: 401 - Error: Access denied, No token provided
+✨1.1.2026, 17:53:59✨ GET /new-customers?months=7 - Status Code: 401 - Error: Access denied, No token provided
+✨1.1.2026, 17:53:59✨ GET /stats - Status Code: 401 - Error: Access denied, No token provided
+✨1.1.2026, 17:53:59✨ GET /new-customers?months=7 - Status Code: 401 - Error: Access denied, No token provided
+✨1.1.2026, 17:53:59✨ GET /stats - Status Code: 401 - Error: Access denied, No token provided
+✨1.1.2026, 18:01:48✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 18:01:49✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 18:01:52✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 18:07:17✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 18:07:19✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 18:08:21✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 18:21:27✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 18:27:45✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 18:28:35✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 18:29:03✨ GET /stats - Status Code: 401 - Error: Access denied, No token provided
+✨1.1.2026, 18:29:46✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 18:29:49✨ GET /stats - Status Code: 401 - Error: Invalid token
+✨1.1.2026, 18:31:40✨ GET /stats - Status Code: 401 - Error: Invalid token
+✨1.1.2026, 18:31:40✨ GET /stats - Status Code: 401 - Error: Invalid token
+✨1.1.2026, 18:31:49✨ GET /stats - Status Code: 401 - Error: Invalid token
+✨1.1.2026, 18:31:49✨ GET /stats - Status Code: 401 - Error: Invalid token
+✨1.1.2026, 18:31:52✨ GET /stats - Status Code: 401 - Error: Invalid token
+✨1.1.2026, 18:31:52✨ GET /stats - Status Code: 401 - Error: Invalid token
+✨1.1.2026, 18:32:06✨ GET /stats - Status Code: 401 - Error: Invalid token
+✨1.1.2026, 18:32:07✨ GET /stats - Status Code: 401 - Error: Invalid token
+✨1.1.2026, 18:37:09✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 18:39:04✨ GET /current - Status Code: 500 - Error: {"message":"Server error","error":"Cannot read properties of undefined (reading '_id')"}
+✨1.1.2026, 18:39:05✨ GET /current - Status Code: 500 - Error: {"message":"Server error","error":"Cannot read properties of undefined (reading '_id')"}
+✨1.1.2026, 18:39:12✨ GET /current - Status Code: 500 - Error: {"message":"Server error","error":"Cannot read properties of undefined (reading '_id')"}
+✨1.1.2026, 18:39:13✨ GET /current - Status Code: 500 - Error: {"message":"Server error","error":"Cannot read properties of undefined (reading '_id')"}
+✨1.1.2026, 18:39:25✨ GET /current - Status Code: 500 - Error: {"message":"Server error","error":"Cannot read properties of undefined (reading '_id')"}
+✨1.1.2026, 18:39:25✨ GET /current - Status Code: 500 - Error: {"message":"Server error","error":"Cannot read properties of undefined (reading '_id')"}
+✨1.1.2026, 18:40:21✨ GET /current - Status Code: 500 - Error: {"message":"Server error","error":"Cannot read properties of undefined (reading '_id')"}
+✨1.1.2026, 18:40:21✨ GET /current - Status Code: 500 - Error: {"message":"Server error","error":"Cannot read properties of undefined (reading '_id')"}
+✨1.1.2026, 18:40:30✨ GET /current - Status Code: 500 - Error: {"message":"Server error","error":"Cannot read properties of undefined (reading '_id')"}
+✨1.1.2026, 18:40:30✨ GET /current - Status Code: 500 - Error: {"message":"Server error","error":"Cannot read properties of undefined (reading '_id')"}
+✨1.1.2026, 18:41:28✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 18:49:09✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 19:03:41✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 19:03:42✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 19:15:18✨ undefined undefined - Status Code: No status code provided - Error: No error message provided
+✨1.1.2026, 19:15:37✨ GET /stats - Status Code: 401 - Error: Access denied, No token provided
+✨1.1.2026, 19:15:37✨ GET /revenue?months=7 - Status Code: 401 - Error: Access denied, No token provided
+✨1.1.2026, 19:16:48✨ POST /register - Status Code: 500 - Error: E11000 duplicate key error collection: crm.users index: profile.phone_1 dup key: { profile.phone: "0525854587" }
+✨1.1.2026, 19:17:51✨ POST /register - Status Code: 500 - Error: E11000 duplicate key error collection: crm.users index: profile.phone_1 dup key: { profile.phone: "0525854587" }
+✨1.1.2026, 19:19:03✨ GET / - Status Code: 403 - Error: Access denied. Insufficient permissions.
+✨1.1.2026, 19:19:03✨ GET / - Status Code: 403 - Error: Access denied. Insufficient permissions.
+✨1.1.2026, 19:19:09✨ GET / - Status Code: 403 - Error: Access denied. Insufficient permissions.
+✨1.1.2026, 19:19:09✨ GET / - Status Code: 403 - Error: Access denied. Insufficient permissions.

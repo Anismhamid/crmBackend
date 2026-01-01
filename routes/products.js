@@ -75,7 +75,6 @@ router.get("/search", async (req, res) => {
 			}
 		}
 
-
 		// Sorting map
 		const sortMap = {
 			newest: {createdAt: -1},
@@ -205,28 +204,5 @@ router.patch("/:id", auth, verifyRole(["Admin"]), async (req, res) => {
 		res.status(500).send(error.message);
 	}
 });
-
-// router.get("/search", async (req, res) => {
-// 	try {
-// 		const {q, category} = req.query;
-// 		const filter = {};
-
-// 		if (q) {
-// 			filter.$or = [
-// 				{product_name: {$regex: q, $option: "i"}},
-// 				{description: {$regex: q, $option: "i"}},
-// 			];
-// 		}
-
-// 		if (category) {
-// 			filter.category = category;
-// 		}
-
-// 		const search = await Products.find({});
-// 	} catch (error) {
-// 		console.error(error);
-// 		res.status(500).send("internal server error");
-// 	}
-// });
 
 module.exports = router;

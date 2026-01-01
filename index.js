@@ -11,6 +11,7 @@ const chalk = require("chalk");
 // routes imports
 const users = require("./routes/users");
 const products = require("./routes/products");
+const dashboard = require("./routes/dashboard");
 
 const app = express();
 
@@ -30,7 +31,7 @@ const limiter = rateLimit({
 
 app.use(express.json());
 app.use(limiter);
-app.use(cors());
+app.use(cors({origin: "http://localhost:5173",credentials:true}));
 app.use(logger);
 logToFile();
 app.use(morgan("dev"));
@@ -53,6 +54,7 @@ mongoose
 // routes
 app.use("/api/users", users);
 app.use("/api/products", products);
+app.use("/api/dashboard", dashboard);
 
 // express listener
 app.listen(PORT, () => {
